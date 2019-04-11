@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Rifter</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty"> </string>
+    <string name="region_set_dialog_title">Choose the region</string>
+    <string name="title_activity_stat_tracking">StatTracking</string>
+    <string name="title_activity_stat_track">StatTrack</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="home_screen_button">Search</string>
+    <string name="Backpresshomescreen_dialog_title">Exit</string>
+    <string name="Backpresshomescreen_dialog_message">Press back again to exit</string>
+    <string name="Backpressstattrack_dialog_title">Exit</string>
+    <string name="Backpressstattrack_dialog_message">Press back again to return to search</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="homescreenloading">Preparing to load, please press Continue and wait</string>
+    <string name="homescreenloadingtitle">Loading</string>
+</resources>

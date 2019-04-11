@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="win">#74aaea</color>
+    <color name="wintop">#3677c7</color>
+    <color name="loss">#ea7d7a</color>
+    <color name="losstop">#b62f2c</color>
+    <color name="redtheme">#ce1b1b</color>
+    <color name="matchtext">#212121</color>
+
+</resources>

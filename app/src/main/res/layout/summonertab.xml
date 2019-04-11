@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:background="@color/material_grey_900">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Region"
+                android:id="@+id/regionText"
+                android:textSize="50sp"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:textColor="@color/DarkTheme_accent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp">
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView3"
+                android:background="@color/DarkTheme_accent"
+                android:contentDescription="" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Summoner Name"
+                    android:id="@+id/nameText"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level"
+                    android:id="@+id/levelText"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Champion Mastery"
+                    android:id="@+id/champmasteryevelText"
+                    android:paddingBottom="10dp"
+                    android:textSize="20sp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#2e2e2e">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/provisional"
+            android:scaleType="centerInside" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rank"
+                android:id="@+id/summonerrank"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LP"
+                android:id="@+id/currentlp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="winrate"
+                android:id="@+id/summonerwinrate"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
